@@ -10,6 +10,7 @@
 #pragma config FPLLIDIV = DIV_2, FWDTEN = OFF
 #pragma config FPBDIV = DIV_1, POSCMOD = XT
 #pragma config FNOSC = PRIPLL, CP = OFF
+#pragma config DEBUG = ON, ICESEL = ICS_PGx2
 
 #define LED1_PORT   IOPORT_D
 #define LED1_PIN    BIT_0
@@ -22,7 +23,7 @@ void board_init()
 {
     // Configure system for maximum performance
     SYSTEMConfigPerformance(configCPU_CLOCK_HZ);
-    mOSCSetPBDIV( OSC_PB_DIV_2 );
+    //mOSCSetPBDIV( OSC_PB_DIV_2 );
     INTConfigureSystem(INT_SYSTEM_CONFIG_MULT_VECTOR);
     PORTSetPinsDigitalOut(LED1_PORT,LED1_PIN);
     PORTSetPinsDigitalOut(LED2_PORT,LED2_PIN);

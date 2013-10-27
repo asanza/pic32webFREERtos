@@ -33,6 +33,96 @@
         </logicalFolder>
         <itemPath>src/FreeRTOS/FreeRTOSConfig.h</itemPath>
       </logicalFolder>
+      <logicalFolder name="tcpip" displayName="tcpip" projectFiles="true">
+        <logicalFolder name="TCPIP Stack" displayName="TCPIP Stack" projectFiles="true">
+          <itemPath>src/tcpip/TCPIP Stack/AES.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/AES_CBC.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/AES_CFB.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/AES_CTR.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/AES_ECB.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/AES_ECB_PIC32.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/AES_OFB.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/aes_pic24f.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/Announce.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/ARCFOUR.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/ARP.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/AutoIP.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/BerkeleyAPI.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/BigInt.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/Delay.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/DHCP.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/DNS.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/DynDNS.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/ENC28J60.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/ENCX24J600.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/ETH97J60.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/ETHPIC32ExtPhy.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/ETHPIC32ExtPhyDP83640.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/ETHPIC32ExtPhyDP83848.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/ETHPIC32ExtPhyRegs.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/ETHPIC32ExtPhySMSC8700.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/ETHPIC32ExtPhySMSC8720.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/FileSystem.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/FTP.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/Hashes.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/Helpers.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/HTTP2.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/ICMP.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/IP.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/LCDBlocking.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/MAC.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/MPFS2.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/NBNS.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/Random.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/Reboot.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/regdef.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/RSA.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/SMTP.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/SNMP.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/SNMPv3.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/SNTP.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/SPIFlash.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/SPIRAM.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/SSL.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/SSLClientSize.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/StackTsk.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/TCP.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/TCPIP.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/TCPPerformanceTest.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/Telnet.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/TFTPc.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/Tick.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/UART.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/UART2TCPBridge.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/UDP.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/UDPPerformanceTest.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/WFApi.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/WFConsole.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/WFConsoleIfconfig.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/WFConsoleIwconfig.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/WFConsoleIwpriv.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/WFConsoleMsgHandler.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/WFConsoleMsgs.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/WFDebugStrings.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/WFDriverPrv.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/WFDriverPrv_24G.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/WFEasyConfig.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/WFMac.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/WFMgmtMsg.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/WFRaw.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/WFRaw_24G.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/XEEPROM.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/ZeroconfHelper.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/ZeroconfLinkLocal.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/ZeroconfMulticastDNS.h</itemPath>
+          <itemPath>src/tcpip/TCPIP Stack/_HTTP2.h</itemPath>
+        </logicalFolder>
+        <itemPath>src/tcpip/TCPIPConfig.h</itemPath>
+        <itemPath>src/tcpip/Compiler.h</itemPath>
+        <itemPath>src/tcpip/GenericTypeDefs.h</itemPath>
+        <itemPath>src/tcpip/HardwareProfile.h</itemPath>
+        <itemPath>src/tcpip/HTTPPrint.h</itemPath>
+      </logicalFolder>
       <logicalFolder name="Unity" displayName="Unity" projectFiles="true">
         <itemPath>src/Unity/unity.h</itemPath>
         <itemPath>src/Unity/unity_internals.h</itemPath>
@@ -68,6 +158,59 @@
         <itemPath>src/FreeRTOS/tasks.c</itemPath>
         <itemPath>src/FreeRTOS/timers.c</itemPath>
       </logicalFolder>
+      <logicalFolder name="tcpip" displayName="tcpip" projectFiles="true">
+        <logicalFolder name="src" displayName="src" projectFiles="true">
+          <itemPath>src/tcpip/src/Announce.c</itemPath>
+          <itemPath>src/tcpip/src/ARCFOUR.c</itemPath>
+          <itemPath>src/tcpip/src/ARP.c</itemPath>
+          <itemPath>src/tcpip/src/AutoIP.c</itemPath>
+          <itemPath>src/tcpip/src/BerkeleyAPI.c</itemPath>
+          <itemPath>src/tcpip/src/BigInt.c</itemPath>
+          <itemPath>src/tcpip/src/Delay.c</itemPath>
+          <itemPath>src/tcpip/src/DHCP.c</itemPath>
+          <itemPath>src/tcpip/src/DHCPs.c</itemPath>
+          <itemPath>src/tcpip/src/DNS.c</itemPath>
+          <itemPath>src/tcpip/src/DNSs.c</itemPath>
+          <itemPath>src/tcpip/src/DynDNS.c</itemPath>
+          <itemPath>src/tcpip/src/ENC28J60.c</itemPath>
+          <itemPath>src/tcpip/src/ENCX24J600.c</itemPath>
+          <itemPath>src/tcpip/src/FileSystem.c</itemPath>
+          <itemPath>src/tcpip/src/FTP.c</itemPath>
+          <itemPath>src/tcpip/src/Hashes.c</itemPath>
+          <itemPath>src/tcpip/src/Helpers.c</itemPath>
+          <itemPath>src/tcpip/src/HTTP2.c</itemPath>
+          <itemPath>src/tcpip/src/ICMP.c</itemPath>
+          <itemPath>src/tcpip/src/IP.c</itemPath>
+          <itemPath>src/tcpip/src/LCDBlocking.c</itemPath>
+          <itemPath>src/tcpip/src/MPFS2.c</itemPath>
+          <itemPath>src/tcpip/src/NBNS.c</itemPath>
+          <itemPath>src/tcpip/src/Random.c</itemPath>
+          <itemPath>src/tcpip/src/Reboot.c</itemPath>
+          <itemPath>src/tcpip/src/RSA.c</itemPath>
+          <itemPath>src/tcpip/src/SMTP.c</itemPath>
+          <itemPath>src/tcpip/src/SNMP.c</itemPath>
+          <itemPath>src/tcpip/src/SNMPv3.c</itemPath>
+          <itemPath>src/tcpip/src/SNMPv3USM.c</itemPath>
+          <itemPath>src/tcpip/src/SNTP.c</itemPath>
+          <itemPath>src/tcpip/src/SPIEEPROM.c</itemPath>
+          <itemPath>src/tcpip/src/SPIFlash.c</itemPath>
+          <itemPath>src/tcpip/src/SPIRAM.c</itemPath>
+          <itemPath>src/tcpip/src/SSL.c</itemPath>
+          <itemPath>src/tcpip/src/StackTsk.c</itemPath>
+          <itemPath>src/tcpip/src/TCP.c</itemPath>
+          <itemPath>src/tcpip/src/TCPPerformanceTest.c</itemPath>
+          <itemPath>src/tcpip/src/Telnet.c</itemPath>
+          <itemPath>src/tcpip/src/TFTPc.c</itemPath>
+          <itemPath>src/tcpip/src/Tick.c</itemPath>
+          <itemPath>src/tcpip/src/UART.c</itemPath>
+          <itemPath>src/tcpip/src/UART2TCPBridge.c</itemPath>
+          <itemPath>src/tcpip/src/UDP.c</itemPath>
+          <itemPath>src/tcpip/src/UDPPerformanceTest.c</itemPath>
+          <itemPath>src/tcpip/src/ZeroconfHelper.c</itemPath>
+          <itemPath>src/tcpip/src/ZeroconfLinkLocal.c</itemPath>
+          <itemPath>src/tcpip/src/ZeroconfMulticastDNS.c</itemPath>
+        </logicalFolder>
+      </logicalFolder>
       <logicalFolder name="UnitTests" displayName="UnitTests" projectFiles="true">
         <itemPath>src/UnitTests/sampletest.c</itemPath>
       </logicalFolder>
@@ -75,6 +218,9 @@
         <itemPath>src/Unity/unity.c</itemPath>
       </logicalFolder>
       <itemPath>src/main.c</itemPath>
+      <itemPath>src/CustomHTTPApp.c</itemPath>
+      <itemPath>src/MPFSImg2.c</itemPath>
+      <itemPath>src/BerkeleyTCPServerDemo.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -83,10 +229,7 @@
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>
-    <Elem>src/Unity</Elem>
-    <Elem>src/FreeRTOS</Elem>
-    <Elem>src/UnitTests</Elem>
-    <Elem>src/drivers</Elem>
+    <Elem>src</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -128,7 +271,7 @@
         <property key="enable-unroll-loops" value="false"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="src\Unity;src\FreeRTOS;src\FreeRTOS\include;src\FreeRTOS\portable\MPLAB\PIC32MX"/>
+                  value="src\Unity;src\FreeRTOS;src\FreeRTOS\include;src\FreeRTOS\portable\MPLAB\PIC32MX;src\tcpip"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="isolate-each-function" value="false"/>
         <property key="make-warnings-into-errors" value="false"/>
@@ -178,7 +321,7 @@
         <property key="optimization-level" value=""/>
         <property key="preprocessor-macros" value=""/>
         <property key="remove-unused-sections" value="false"/>
-        <property key="report-memory-usage" value="false"/>
+        <property key="report-memory-usage" value="true"/>
         <property key="stack-size" value=""/>
         <property key="symbol-stripping" value=""/>
         <property key="trace-symbols" value=""/>
@@ -247,7 +390,6 @@
         <property key="ToolFirmwareOption.UseLatestFirmware" value="true"/>
         <property key="UART1" value="true"/>
         <property key="UART2" value="true"/>
-        <property key="firmware.download.all" value="false"/>
         <property key="hwtoolclock.frcindebug" value="false"/>
         <property key="memories.aux" value="false"/>
         <property key="memories.bootflash" value="false"/>
