@@ -52,7 +52,7 @@
 
 #include "GenericTypeDefs.h"
 #include "Compiler.h"
-
+#include <../drivers/board/board.h>
 
 	// Set configuration fuses (but only once)
 	//#if defined(THIS_IS_STACK_APPLICATION)
@@ -61,13 +61,12 @@
 
     // Clock frequency value.
     // This value is used to calculate Tick Counter value
-    #define GetSystemClock()		(80000000ul)      // Hz
-    #define GetInstructionClock()	(GetSystemClock()/1)
-    #define GetPeripheralClock()	(GetInstructionClock()/1)	// Set your divider according to your Peripheral Bus Frequency configuration fuse setting
+    #define GetSystemClock()		BOARD_CPU_CLK_HZ
+    #define GetInstructionClock()	BOARD_CPU_CLK_HZ
+    #define GetPeripheralClock()	BOARD_PB_CLK_HZ	// Set your divider according to your Peripheral Bus Frequency configuration fuse setting
 
-
-	// Specify which SPI to use for the ENC624J600.  
-	#define ENC_IN_SPI2
+    // Specify which SPI to use for the ENC624J600.
+    #define ENC_IN_SPI2
 
     
     // Hardware mappings

@@ -51,11 +51,15 @@
 #define __DELAY_C
 
 #include "TCPIP Stack/TCPIP.h"
-
+#include <FreeRTOS.h>
+#include <task.h>
 
 #if !defined(__18CXX) || defined(HI_TECH_C)
 void DelayMs(WORD ms)
 {
+#ifdef INC_FREERTOS_H
+    vTaskDelay(ms);
+#else
     unsigned char i;
     while(ms--)
     {
@@ -65,6 +69,7 @@ void DelayMs(WORD ms)
             Delay10us(25);
         }
     }
+#endif
 }
 #endif	//#if !defined(__18CXX) || defined(HI_TECH_C)
 

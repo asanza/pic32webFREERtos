@@ -118,8 +118,9 @@ int main( void )
 {
 	/* Prepare the hardware to run this demo. */
         board_init();
+        board_uart_init();
         portDISABLE_INTERRUPTS();
-        xTaskCreate( prvQueueSendTask, ( signed char * ) "TX", configMINIMAL_STACK_SIZE, NULL, 4, NULL );
+        xTaskCreate( prvQueueSendTask, ( signed char * ) "LedTask", configMINIMAL_STACK_SIZE, NULL, 4, NULL );
         xTaskCreate( stackTasks, ( signed char * ) "TcpIp", configMINIMAL_STACK_SIZE, NULL, 4, NULL );
         vTaskStartScheduler();
 	return 0;
@@ -147,6 +148,7 @@ void stackTasks(void* pvParameters)
 
 void prvQueueSendTask(void* pvParameters)
 {
+    static char buffer[80];
     while(1)
     {
         board_led1_toggle();
@@ -155,6 +157,9 @@ void prvQueueSendTask(void* pvParameters)
         vTaskDelay(250);
         board_led3_toggle();
         vTaskDelay(250);
+        //WriteCoreTimer(0);
+        vTaskGetRunTimeStats(buffer);
+        printf("%s\n", buffer);
     }
 }
 
@@ -273,7 +278,7 @@ volatile unsigned long ul = 0;
 
 	( void ) pcFile;
 	( void ) ulLine;
-
+        printf("Assert: %s:%d\n",pcFile,ulLine);
 	taskENTER_CRITICAL();
 	{
 		/* Set ul to a non-zero value using the debugger to step out of this
